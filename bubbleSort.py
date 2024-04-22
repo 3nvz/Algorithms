@@ -1,5 +1,5 @@
 
-# O(n) time complexity
+# O(n^2) time complexity
 
 sortMe = [42, 87, 19, 63, 56, 94, 28, 70, 11, 88, 49, 32, 73, 5, 39]
 
