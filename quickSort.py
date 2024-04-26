@@ -1,6 +1,4 @@
 
-sortMe = [42, 87, 19, 63, 56, 94, 28, 70, 11, 88, 49, 32, 73, 5, 39]
-
 # Used first element of arr as pivot which is not optimal, better random or median values - did it for test purposes
 def quicksort(arr):
     if len(arr) <= 1:
@@ -18,10 +16,12 @@ def quicksort(arr):
     
         return quicksort(leftPartition) + [pivot] + quicksort(rightPartition)
     
-print("Unsorted array: ", sortMe)
 
+
+sortMe = [42, 87, 19, 63, 56, 94, 28, 70, 11, 88, 49, 32, 73, 5, 39]
 sortedArr = quicksort(sortMe)
 
+print("Unsorted array: ", sortMe)
 print("Sorted array: ", sortedArr)
 
 
