@@ -29,9 +29,9 @@ print("Soted final array: ", sortedArr)
 """
 
 1. Let's imgaine we want to sort an array
-2. The elemnts of teh array will be divided into multiple buckets
+2. The elements of the array will be divided into multiple buckets
 3. Number of buckets is equal to the number of elements of array
-4. Each buckets is being osrted recursovely with the same bucketSort or any other sort
+4. Each buckets is being sorted recursively with the same bucketSort or any other sort
 
 -> If the elements in the array are floats, we can multiple by 10 and take the floor value to assign to a bucket
 
