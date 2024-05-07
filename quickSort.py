@@ -1,5 +1,6 @@
 
 # Used first element of arr as pivot which is not optimal, better random or median values - did it for test purposes
+
 def quicksort(arr):
     if len(arr) <= 1:
         return arr    

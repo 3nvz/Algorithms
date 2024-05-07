@@ -17,7 +17,7 @@ while (low <= high):
         break
     
     if needle < searchMe[mid]:
-        high = mid -1
+        high = mid - 1
     
     if needle > searchMe[mid]:
         low = mid + 1

@@ -8,7 +8,7 @@ def bucketsort(arr):
     for i in range(len(sortMe)):
         bucket.append([])
 
-    for item in sortMe:
+    for item in arr:
         index = int(10 * item)
         bucket[index].append(item)
 
