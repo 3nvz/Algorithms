@@ -1,8 +1,13 @@
 
 
-s = "Hello World"
-wordArray = s.split()
-lastWordLength = len(wordArray[-1])
+sentence = "this problem is an easy problem" 
+searchWord = "pro"
 
-print(wordArray)
-print(lastWordLength)
+wordsList = sentence.split()
+dummy = 0
+
+for word in wordsList:
+    dummy += 1
+    if searchWord in word:
+        print("Prefix found at index: ", dummy)
+        break
