@@ -1,13 +1,13 @@
 
 
-sentence = "this problem is an easy problem" 
-searchWord = "pro"
+startTime = [1,2,3]
+endTime = [3,2,7]
+queryTime = 4
 
-wordsList = sentence.split()
-dummy = 0
+res = 0
 
-for word in wordsList:
-    dummy += 1
-    if searchWord in word:
-        print("Prefix found at index: ", dummy)
-        break
+for s, e in zip(startTime, endTime):
+    if s <= queryTime <= e:
+        res += 1
+
+print(res)
