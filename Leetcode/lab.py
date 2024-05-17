@@ -1,18 +1,19 @@
+# find max
+# find min
+# convert to tuple so it's order and removes duplicates
+# loop through every number from min to max and check if this number is in the tuple
+# if not add it to the result
 
- 
+nums = [1, 1]
+result = []
+tup = set(nums)
 
-s = "5F3Z-2e-9-w" 
-k = 4
+localMin = min(tup)
+localMax = max(tup)
 
-s = s.replace("-", "").upper()
-print(s)
+for i in range(localMin, localMax):
+    if i not in tup:
+        result.append(i)
 
-first_group_len = len(s) % k
-print(first_group_len, "first g length")
-      
-reformatted = s[:first_group_len]
-     
-for i in range(first_group_len, len(s), k):
-    if reformatted:
-        reformatted += "-"
-    reformatted += s[i:i+k]
+print(result)
+
