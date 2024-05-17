@@ -1,21 +1,18 @@
 
-# count up to n + 1
-# convert every count starting from 0 to binary
-# count the number of 1's in the binary result
-# append the number of 1's to the result array
+ 
 
-n = 5
-result = []
-result.append(0)
+s = "5F3Z-2e-9-w" 
+k = 4
 
+s = s.replace("-", "").upper()
+print(s)
 
-for i in range(n + 1):
-    tmp = bin(i)
-    counter = 0
-    for char in tmp:
-        if char == '1':
-            counter += 1
-    if counter != 0:
-        result.append(counter)
-
-print(result)
+first_group_len = len(s) % k
+print(first_group_len, "first g length")
+      
+reformatted = s[:first_group_len]
+     
+for i in range(first_group_len, len(s), k):
+    if reformatted:
+        reformatted += "-"
+    reformatted += s[i:i+k]
