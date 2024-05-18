@@ -18,7 +18,7 @@ def bucketsort(arr):
     merge = 0
     for i in range(len(arr)):
         for j in range(len(bucket[i])):
-            sortMe[merge] = bucket[i][j]
+            arr[merge] = bucket[i][j]
             merge += 1
     
     return arr

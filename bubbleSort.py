@@ -1,5 +1,6 @@
 
 # O(n^2) time complexity
+# iterate through the list and swap if the item is bigger than it's right neighbor
 
 sortMe = [42, 87, 19, 63, 56, 94, 28, 70, 11, 88, 49, 32, 73, 5, 39]
 
