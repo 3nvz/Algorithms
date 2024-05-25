@@ -4,22 +4,8 @@
 # loop through every number from min to max and check if this number is in the tuple
 # if not add it to the resultc
 
-from typing import Counter
+# worked on openapi api full stack react and node js
 
-
-nums = [4,3,2,7,8,2,3,1]
-result = []
-tup = set(nums)
-
-d = Counter(nums)
-print(d, "Couneter")
-
-localMin = min(tup)
-localMax = max(tup)
-
-for i in range(localMin, localMax):
-    if i not in tup:
-        result.append(i)
-
-print(result)
-
+import os
+random_bytes = os.urandom(24)
+print(random_bytes)
