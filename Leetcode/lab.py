@@ -4,7 +4,7 @@
 # loop through every number from min to max and check if this number is in the tuple
 # if not add it to the resultc
 
-# worked on openapi api full stack react and node js
+# kept on working full stack app, logic is done and functioning
 
 import os
 random_bytes = os.urandom(24)
