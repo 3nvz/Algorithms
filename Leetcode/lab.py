@@ -4,7 +4,7 @@
 # loop through every number from min to max and check if this number is in the tuple
 # if not add it to the resultc
 
-# implemented singly linked list in c++
+# codechef practice c++, hit 800
 
 import os
 random_bytes = os.urandom(24)
