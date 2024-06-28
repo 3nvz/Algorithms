@@ -4,7 +4,7 @@
 # loop through every number from min to max and check if this number is in the tuple
 # if not add it to the resultc
 
-# codechef practice c++, solved 1500 - went on 1800 problem - woked on a full stack project
+# codechef practice c++, solved 1500 - went on 1800 problem - woked on a full stack project again
 
 import hashlib
 import os
